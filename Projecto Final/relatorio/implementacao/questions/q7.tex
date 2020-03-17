@@ -1,0 +1,21 @@
+\subsubsection{Quantos livros estima encontrar nos próximos 2 minutos?}
+\label{chap2:subsec:q7}
+
+Para responder a esta questão foram tidos em conta dois parâmetros:
+
+\begin{enumerate}
+    \item Número de quartos visitados por segundo (\textit{rooms\_sec})
+    \item Número de livros observados por quarto (\textit{books\_room})
+\end{enumerate}
+
+Tendo em conta estes dois parâmetros, a estimativa do número de livros a encontrar nos próximos 2 minutos é dada por:
+
+\begin{equation}
+    prediction = (2 * 60) * rooms\_sec * books\_room
+\end{equation}
+
+É também tido em conta o número de quartos não visitados (\textit{remaining\_rooms}). Caso o número de quartos que é possível visitar em 2 minutos seja superior ao número de quartos não visitados, usa-se a equação:
+
+\begin{equation}
+    prediction = remaining\_rooms * books\_room
+\end{equation}

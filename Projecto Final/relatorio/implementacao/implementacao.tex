@@ -1,0 +1,78 @@
+\section{Implementação}
+\label{chap:estado-da-arte}
+
+\subsection{Introdução}
+\label{chap2:sec:intro}
+
+Neste capítulo são apresentadas as bibliotecas utilizadas, as estruturas de dados escolhidas bem como todos os detalhes de implementação das respostas às questões.
+
+\subsection{Dependências}
+\label{chap2:sec:dependencias}
+
+Ao longo da realização do trabalho foram utilizadas algumas bibliotecas \textit{built-in} e \textit{third-party} para auxilio à implementação da solução.
+
+\begin{itemize}
+  \item Bibliotecas \textit{built-in} do Python:
+  \begin{enumerate}
+    \item \textit{math}
+    \item \textit{time}
+  \end{enumerate}
+
+  \item Bibliotecas \textit{third-party}:
+  \begin{enumerate}
+      \item \textit{networkx}~\cite{networkx}
+  \end{enumerate}
+\end{itemize}
+
+\clearpage
+\subsection{Representação da Informação}
+\label{chap2:sec:info}
+
+Durante a navegação do agente por parte do utilizador é registada informação, recolhida pelos sensores.
+
+Foi necessário escolher estruturas de dados para representar esta informação de forma a facilitar a sua consulta e resposta às questões. As estruturas de dados escolhidas foram as seguintes:
+
+\begin{itemize}
+    \item \textbf{Grafo:} Foi utilizado para representar todos os quartos visitados. Uma \textit{edge} entre dois quartos indica uma porta e o seu \textit{weight} corresponde à distância euclidiana entre o centro dos dois quartos.
+    \item \textbf{Dicionários:} Foram utilizados varios dicionários com o objectivo de obter consultas rápidas
+    \begin{itemize}
+        \item \textbf{Dicionário de Objetos Encontrados:} devolve uma lista de objectos encontrados num determinado quarto de uma certa categoria.
+        \begin{itemize}
+            \item \textbf{key}: (\textit{room}, \textit{category})
+            \item \textbf{value}: \textit{object\_name}
+        \end{itemize}
+        \item \textbf{Dicionário de Tipos de Quarto:} devolve qual o tipo de um determinado quarto
+        \begin{itemize}
+            \item \textbf{key}: \textit{room}
+            \item \textbf{value}: \textit{type\_of\_room}
+        \end{itemize}
+    \end{itemize}
+    \item \textbf{Listas:} Foram utilizadas várias listas de forma a representar dados mais simples
+    \begin{itemize}
+      \item coordenadas centrais dos quartos
+      \item numero dos corredores
+      \item ...
+    \end{itemize}
+\end{itemize}
+
+\clearpage
+\subsection{Resposta às questões}
+\label{chap2:sec:resposta}
+
+Nesta secção é explicado de forma sucinta a implementação da solução para cada uma das perguntas sugeridas.
+
+\input{implementacao/questions/q1}
+
+\input{implementacao/questions/q2}
+
+\input{implementacao/questions/q3}
+
+\input{implementacao/questions/q4}
+
+\input{implementacao/questions/q5}
+
+\input{implementacao/questions/q6}
+
+\input{implementacao/questions/q7}
+
+\input{implementacao/questions/q8}

@@ -1,0 +1,30 @@
+\begin{thebibliography}{1}
+
+\bibitem{networkx}
+Networkx documentation, 2019.
+\newblock "\url{https://networkx.github.io/documentation/latest/}". Acedido em
+  28 de Dezembro de 2019.
+
+\bibitem{shortest_path}
+shortest\_path() documentation, 2019.
+\newblock
+  "\url{https://networkx.github.io/documentation/stable/reference/algorithms/generated/networkx.algorithms.shortest_paths.generic.shortest_path.html#networkx.algorithms.shortest_paths.generic.shortest_path}".
+  Acedido em 28 de Dezembro de 2019.
+
+\bibitem{shortest_path_lenght}
+shortest\_path\_lenght() documentation, 2019.
+\newblock
+  "\url{https://networkx.github.io/documentation/stable/reference/algorithms/generated/networkx.algorithms.shortest_paths.generic.shortest_path_length.html#networkx.algorithms.shortest_paths.generic.shortest_path_length}".
+  Acedido em 28 de Dezembro de 2019.
+
+\bibitem{slides}
+Luís Alexandre.
+\newblock Inteligência artificial.
+\newblock Lecture Notes, 2019.
+
+\bibitem{livro}
+Stuart~J. Russell and Peter Norvig.
+\newblock {\em Artificial intelligence: a modern approach}.
+\newblock Pearson, 2016.
+
+\end{thebibliography}

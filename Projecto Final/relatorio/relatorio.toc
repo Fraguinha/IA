@@ -1,0 +1,26 @@
+\babel@toc {portuguese}{}
+\contentsline {section}{\numberline {1}Introdução}{2}{section.1}% 
+\contentsline {subsection}{\numberline {1.1}Resumo}{2}{subsection.1.1}% 
+\contentsline {subsection}{\numberline {1.2}Motivação}{2}{subsection.1.2}% 
+\contentsline {subsection}{\numberline {1.3}Objetivos}{2}{subsection.1.3}% 
+\contentsline {section}{\numberline {2}Implementação}{3}{section.2}% 
+\contentsline {subsection}{\numberline {2.1}Introdução}{3}{subsection.2.1}% 
+\contentsline {subsection}{\numberline {2.2}Dependências}{3}{subsection.2.2}% 
+\contentsline {subsection}{\numberline {2.3}Representação da Informação}{4}{subsection.2.3}% 
+\contentsline {subsection}{\numberline {2.4}Resposta às questões}{5}{subsection.2.4}% 
+\contentsline {subsubsection}{\numberline {2.4.1}Quantos quartos não estão ocupados?}{5}{subsubsection.2.4.1}% 
+\contentsline {subsubsection}{\numberline {2.4.2}Quantas suites foram encontradas até agora?}{5}{subsubsection.2.4.2}% 
+\contentsline {subsubsection}{\numberline {2.4.3}É mais provável encontrar pessoas nos corredores ou dentro dos quartos?}{5}{subsubsection.2.4.3}% 
+\contentsline {subsubsection}{\numberline {2.4.4}Se quisesse encontrar um computador, a que tipo de quarto me devo dirigir?}{5}{subsubsection.2.4.4}% 
+\contentsline {subsubsection}{\numberline {2.4.5}Qual o número do quarto \textit {single} mais próximo?}{6}{subsubsection.2.4.5}% 
+\contentsline {subsubsection}{\numberline {2.4.6}Como ir do quarto atual até ao elevador?}{6}{subsubsection.2.4.6}% 
+\contentsline {subsubsection}{\numberline {2.4.7}Quantos livros estima encontrar nos próximos 2 minutos?}{6}{subsubsection.2.4.7}% 
+\contentsline {subsubsection}{\numberline {2.4.8}Qual a probabilidade de encontrar uma mesa num quarto sem livros e que tem pelo menos uma cadeira?}{6}{subsubsection.2.4.8}% 
+\contentsline {section}{\numberline {3}Reflexao Critica}{7}{section.3}% 
+\contentsline {subsection}{\numberline {3.1}Introdução}{7}{subsection.3.1}% 
+\contentsline {subsection}{\numberline {3.2}Divisão do Trabalho}{7}{subsection.3.2}% 
+\contentsline {subsection}{\numberline {3.3}Problemas Encontrados}{7}{subsection.3.3}% 
+\contentsline {subsection}{\numberline {3.4}Analise Crítica}{8}{subsection.3.4}% 
+\contentsline {section}{\numberline {4}Conclusões e Trabalho Futuro}{9}{section.4}% 
+\contentsline {subsection}{\numberline {4.1}Conclusão}{9}{subsection.4.1}% 
+\contentsline {subsection}{\numberline {4.2}Trabalho Futuro}{9}{subsection.4.2}% 
